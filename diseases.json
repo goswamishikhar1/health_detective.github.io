@@ -1,0 +1,26 @@
+{
+    "Malaria": {
+        "description": "A mosquito-borne infectious disease caused by Plasmodium parasites.",
+        "symptoms": ["fever", "chills", "headache", "nausea", "vomiting", "muscle pain", "fatigue"],
+        "precautions": ["Use mosquito nets", "Apply insect repellent", "Wear long-sleeved clothing", "Eliminate standing water"],
+        "medications": ["Chloroquine", "Artemisinin-based combination therapies", "Quinine", "Mefloquine"]
+    },
+    "Dengue": {
+        "description": "A mosquito-borne viral infection causing severe flu-like illness.",
+        "symptoms": ["high fever", "severe headache", "pain behind eyes", "muscle and joint pain", "rash", "mild bleeding"],
+        "precautions": ["Use mosquito nets", "Apply insect repellent", "Wear protective clothing", "Keep surroundings clean"],
+        "medications": ["Paracetamol", "IV fluids", "Platelet transfusion if needed"]
+    },
+    "Typhoid": {
+        "description": "A bacterial infection caused by Salmonella typhi, spread through contaminated food and water.",
+        "symptoms": ["prolonged fever", "headache", "nausea", "abdominal pain", "constipation or diarrhea", "loss of appetite"],
+        "precautions": ["Drink clean water", "Eat well-cooked food", "Maintain hygiene", "Get vaccinated"],
+        "medications": ["Antibiotics (Ciprofloxacin, Azithromycin)", "Fluids and electrolytes"]
+    },
+    "Cholera": {
+        "description": "An acute diarrheal illness caused by infection of the intestine with Vibrio cholerae bacteria.",
+        "symptoms": ["profuse watery diarrhea", "vomiting", "leg cramps", "rapid dehydration"],
+        "precautions": ["Drink clean water", "Wash hands frequently", "Eat well-cooked food", "Maintain sanitation"],
+        "medications": ["Oral rehydration solution", "Antibiotics (Doxycycline, Azithromycin)", "Zinc supplements"]
+    }
+} 

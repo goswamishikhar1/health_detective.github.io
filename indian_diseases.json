@@ -1,0 +1,218 @@
+{
+    "Malaria": {
+        "description": "A mosquito-borne infectious disease caused by Plasmodium parasites.",
+        "symptoms": ["fever", "chills", "headache", "nausea", "vomiting", "muscle pain", "fatigue"],
+        "precautions": ["Use mosquito nets", "Apply insect repellent", "Wear long-sleeved clothing", "Eliminate standing water"],
+        "medications": ["Chloroquine", "Artemisinin-based combination therapies", "Quinine", "Mefloquine"]
+    },
+    "Dengue": {
+        "description": "A mosquito-borne viral infection causing severe flu-like illness.",
+        "symptoms": ["high fever", "severe headache", "pain behind eyes", "muscle and joint pain", "rash", "mild bleeding"],
+        "precautions": ["Use mosquito nets", "Apply insect repellent", "Wear protective clothing", "Keep surroundings clean"],
+        "medications": ["Paracetamol", "IV fluids", "Platelet transfusion if needed"]
+    },
+    "Typhoid": {
+        "description": "A bacterial infection caused by Salmonella typhi, spread through contaminated food and water.",
+        "symptoms": ["prolonged fever", "headache", "nausea", "abdominal pain", "constipation or diarrhea", "loss of appetite"],
+        "precautions": ["Drink clean water", "Eat well-cooked food", "Maintain hygiene", "Get vaccinated"],
+        "medications": ["Antibiotics (Ciprofloxacin, Azithromycin)", "Fluids and electrolytes"]
+    },
+    "Cholera": {
+        "description": "An acute diarrheal illness caused by infection of the intestine with Vibrio cholerae bacteria.",
+        "symptoms": ["profuse watery diarrhea", "vomiting", "leg cramps", "rapid dehydration"],
+        "precautions": ["Drink clean water", "Wash hands frequently", "Eat well-cooked food", "Maintain sanitation"],
+        "medications": ["Oral rehydration solution", "Antibiotics (Doxycycline, Azithromycin)", "Zinc supplements"]
+    },
+    "Tuberculosis": {
+        "description": "A bacterial infection that mainly affects the lungs but can spread to other organs.",
+        "symptoms": ["persistent cough", "fever", "night sweats", "weight loss", "fatigue", "chest pain"],
+        "precautions": ["Get BCG vaccination", "Cover mouth when coughing", "Maintain good ventilation", "Complete treatment course"],
+        "medications": ["Isoniazid", "Rifampin", "Ethambutol", "Pyrazinamide"]
+    },
+    "Hepatitis A": {
+        "description": "A viral liver disease transmitted through contaminated food and water.",
+        "symptoms": ["fever", "fatigue", "loss of appetite", "nausea", "abdominal pain", "jaundice"],
+        "precautions": ["Get vaccinated", "Maintain hygiene", "Drink clean water", "Eat well-cooked food"],
+        "medications": ["Supportive care", "Rest", "Hydration", "Liver function monitoring"]
+    },
+    "Hepatitis B": {
+        "description": "A serious liver infection caused by the hepatitis B virus.",
+        "symptoms": ["fatigue", "abdominal pain", "jaundice", "dark urine", "joint pain", "loss of appetite"],
+        "precautions": ["Get vaccinated", "Practice safe sex", "Avoid sharing needles", "Use sterile medical equipment"],
+        "medications": ["Antiviral drugs (Tenofovir, Entecavir)", "Interferon injections", "Liver function monitoring"]
+    },
+    "Chikungunya": {
+        "description": "A viral disease transmitted to humans by infected mosquitoes.",
+        "symptoms": ["fever", "severe joint pain", "muscle pain", "headache", "rash", "fatigue"],
+        "precautions": ["Use mosquito nets", "Apply insect repellent", "Wear protective clothing", "Eliminate breeding sites"],
+        "medications": ["Paracetamol", "NSAIDs", "Rest", "Hydration"]
+    },
+    "Japanese Encephalitis": {
+        "description": "A viral brain infection spread by mosquitoes, common in rural areas.",
+        "symptoms": ["fever", "headache", "vomiting", "confusion", "seizures", "paralysis"],
+        "precautions": ["Get vaccinated", "Use mosquito nets", "Apply insect repellent", "Control mosquito breeding"],
+        "medications": ["Supportive care", "Hospitalization", "Seizure control", "Respiratory support"]
+    },
+    "Kala-azar": {
+        "description": "A parasitic disease transmitted by sandfly bites, also known as visceral leishmaniasis.",
+        "symptoms": ["fever", "weight loss", "enlarged spleen", "anemia", "fatigue", "darkening of skin"],
+        "precautions": ["Use insecticide-treated nets", "Apply insect repellent", "Wear protective clothing", "Control sandfly breeding"],
+        "medications": ["Liposomal amphotericin B", "Miltefosine", "Paromomycin", "Sodium stibogluconate"]
+    },
+    "Leprosy": {
+        "description": "A chronic infectious disease caused by Mycobacterium leprae.",
+        "symptoms": ["skin lesions", "numbness", "muscle weakness", "eye problems", "nerve damage", "deformities"],
+        "precautions": ["Early diagnosis", "Complete treatment", "Regular check-ups", "Maintain hygiene"],
+        "medications": ["Multidrug therapy (Dapsone, Rifampin, Clofazimine)", "Anti-inflammatory drugs"]
+    },
+    "Filariasis": {
+        "description": "A parasitic disease caused by thread-like worms transmitted by mosquitoes.",
+        "symptoms": ["swelling of limbs", "fever", "chills", "pain", "skin thickening", "hydrocele"],
+        "precautions": ["Use mosquito nets", "Apply insect repellent", "Wear protective clothing", "Control mosquito breeding"],
+        "medications": ["Diethylcarbamazine", "Ivermectin", "Albendazole", "Antibiotics for secondary infections"]
+    },
+    "Scrub Typhus": {
+        "description": "A bacterial infection transmitted by chigger bites.",
+        "symptoms": ["fever", "headache", "body aches", "rash", "eschar", "lymph node swelling"],
+        "precautions": ["Wear protective clothing", "Apply insect repellent", "Avoid tall grass", "Maintain hygiene"],
+        "medications": ["Doxycycline", "Azithromycin", "Chloramphenicol", "Supportive care"]
+    },
+    "Leptospirosis": {
+        "description": "A bacterial infection spread through contact with contaminated water or soil.",
+        "symptoms": ["fever", "headache", "muscle pain", "jaundice", "red eyes", "abdominal pain"],
+        "precautions": ["Avoid contact with contaminated water", "Wear protective clothing", "Maintain hygiene", "Control rodents"],
+        "medications": ["Doxycycline", "Penicillin", "Ceftriaxone", "Supportive care"]
+    },
+    "Rabies": {
+        "description": "A viral disease transmitted through the bite of infected animals.",
+        "symptoms": ["fever", "headache", "anxiety", "confusion", "hydrophobia", "paralysis"],
+        "precautions": ["Vaccinate pets", "Avoid contact with stray animals", "Clean wounds properly", "Get post-exposure prophylaxis"],
+        "medications": ["Rabies vaccine", "Rabies immunoglobulin", "Supportive care"]
+    },
+    "Tetanus": {
+        "description": "A bacterial infection causing muscle stiffness and spasms.",
+        "symptoms": ["muscle stiffness", "lockjaw", "difficulty swallowing", "muscle spasms", "fever", "sweating"],
+        "precautions": ["Get vaccinated", "Clean wounds properly", "Use sterile medical equipment", "Maintain hygiene"],
+        "medications": ["Tetanus immunoglobulin", "Antibiotics", "Muscle relaxants", "Supportive care"]
+    },
+    "Diphtheria": {
+        "description": "A serious bacterial infection affecting the mucous membranes of the throat and nose.",
+        "symptoms": ["sore throat", "fever", "swollen glands", "weakness", "difficulty breathing", "gray membrane in throat"],
+        "precautions": ["Get vaccinated", "Maintain hygiene", "Avoid close contact with infected persons", "Complete treatment"],
+        "medications": ["Diphtheria antitoxin", "Antibiotics", "Supportive care"]
+    },
+    "Pertussis": {
+        "description": "A highly contagious respiratory infection, also known as whooping cough.",
+        "symptoms": ["severe coughing", "whooping sound", "vomiting", "fatigue", "fever", "runny nose"],
+        "precautions": ["Get vaccinated", "Cover mouth when coughing", "Maintain hygiene", "Avoid close contact"],
+        "medications": ["Antibiotics", "Supportive care", "Hospitalization if severe"]
+    },
+    "Measles": {
+        "description": "A highly contagious viral infection causing fever and rash.",
+        "symptoms": ["fever", "cough", "runny nose", "red eyes", "rash", "white spots in mouth"],
+        "precautions": ["Get vaccinated", "Maintain hygiene", "Avoid close contact", "Isolate infected persons"],
+        "medications": ["Vitamin A", "Supportive care", "Antipyretics", "Hydration"]
+    },
+    "Mumps": {
+        "description": "A viral infection causing swelling of the salivary glands.",
+        "symptoms": ["swollen salivary glands", "fever", "headache", "muscle aches", "fatigue", "loss of appetite"],
+        "precautions": ["Get vaccinated", "Maintain hygiene", "Avoid close contact", "Isolate infected persons"],
+        "medications": ["Supportive care", "Pain relievers", "Warm or cold compresses", "Hydration"]
+    },
+    "Rubella": {
+        "description": "A viral infection causing mild fever and rash, dangerous for pregnant women.",
+        "symptoms": ["mild fever", "rash", "swollen lymph nodes", "headache", "red eyes", "joint pain"],
+        "precautions": ["Get vaccinated", "Maintain hygiene", "Avoid close contact", "Isolate infected persons"],
+        "medications": ["Supportive care", "Pain relievers", "Hydration"]
+    },
+    "Chickenpox": {
+        "description": "A highly contagious viral infection causing itchy rash and blisters.",
+        "symptoms": ["itchy rash", "fever", "headache", "loss of appetite", "fatigue", "blisters"],
+        "precautions": ["Get vaccinated", "Maintain hygiene", "Avoid scratching", "Isolate infected persons"],
+        "medications": ["Antiviral drugs", "Antihistamines", "Calamine lotion", "Pain relievers"]
+    },
+    "Hand, Foot and Mouth Disease": {
+        "description": "A common viral illness in children causing sores in the mouth and rash on hands and feet.",
+        "symptoms": ["fever", "sore throat", "mouth sores", "rash on hands and feet", "loss of appetite", "irritability"],
+        "precautions": ["Maintain hygiene", "Wash hands frequently", "Avoid close contact", "Clean surfaces"],
+        "medications": ["Supportive care", "Pain relievers", "Mouth rinses", "Hydration"]
+    },
+    "Conjunctivitis": {
+        "description": "An inflammation of the conjunctiva, commonly known as pink eye.",
+        "symptoms": ["red eyes", "itchiness", "discharge", "swelling", "light sensitivity", "blurred vision"],
+        "precautions": ["Wash hands frequently", "Avoid touching eyes", "Don't share personal items", "Maintain hygiene"],
+        "medications": ["Antibiotic eye drops", "Artificial tears", "Cold compresses", "Antihistamines"]
+    },
+    "Gastroenteritis": {
+        "description": "Inflammation of the stomach and intestines, commonly called stomach flu.",
+        "symptoms": ["diarrhea", "vomiting", "abdominal pain", "fever", "dehydration", "loss of appetite"],
+        "precautions": ["Maintain hygiene", "Drink clean water", "Eat well-cooked food", "Wash hands frequently"],
+        "medications": ["Oral rehydration solution", "Antibiotics if bacterial", "Antiemetics", "Probiotics"]
+    },
+    "Amoebiasis": {
+        "description": "An intestinal infection caused by the parasite Entamoeba histolytica.",
+        "symptoms": ["diarrhea", "abdominal pain", "blood in stool", "fever", "fatigue", "weight loss"],
+        "precautions": ["Drink clean water", "Maintain hygiene", "Eat well-cooked food", "Wash hands frequently"],
+        "medications": ["Metronidazole", "Tinidazole", "Paromomycin", "Oral rehydration solution"]
+    },
+    "Giardiasis": {
+        "description": "An intestinal infection caused by the parasite Giardia lamblia.",
+        "symptoms": ["diarrhea", "abdominal cramps", "bloating", "nausea", "fatigue", "weight loss"],
+        "precautions": ["Drink clean water", "Maintain hygiene", "Wash hands frequently", "Avoid contaminated food"],
+        "medications": ["Metronidazole", "Tinidazole", "Nitazoxanide", "Oral rehydration solution"]
+    },
+    "Ascariasis": {
+        "description": "An intestinal infection caused by the roundworm Ascaris lumbricoides.",
+        "symptoms": ["abdominal pain", "nausea", "vomiting", "diarrhea", "weight loss", "worms in stool"],
+        "precautions": ["Maintain hygiene", "Wash hands frequently", "Eat well-cooked food", "Drink clean water"],
+        "medications": ["Albendazole", "Mebendazole", "Ivermectin", "Supportive care"]
+    },
+    "Hookworm Infection": {
+        "description": "An intestinal infection caused by hookworm parasites.",
+        "symptoms": ["abdominal pain", "diarrhea", "anemia", "fatigue", "weight loss", "itchy rash"],
+        "precautions": ["Wear shoes", "Maintain hygiene", "Avoid walking barefoot", "Use sanitary toilets"],
+        "medications": ["Albendazole", "Mebendazole", "Iron supplements", "Supportive care"]
+    },
+    "Whipworm Infection": {
+        "description": "An intestinal infection caused by the whipworm Trichuris trichiura.",
+        "symptoms": ["abdominal pain", "diarrhea", "blood in stool", "weight loss", "anemia", "rectal prolapse"],
+        "precautions": ["Maintain hygiene", "Wash hands frequently", "Use sanitary toilets", "Drink clean water"],
+        "medications": ["Albendazole", "Mebendazole", "Iron supplements", "Supportive care"]
+    },
+    "Pinworm Infection": {
+        "description": "An intestinal infection caused by the pinworm Enterobius vermicularis.",
+        "symptoms": ["anal itching", "restless sleep", "irritability", "abdominal pain", "nausea", "loss of appetite"],
+        "precautions": ["Maintain hygiene", "Wash hands frequently", "Clean bedding", "Trim fingernails"],
+        "medications": ["Albendazole", "Mebendazole", "Pyrantel pamoate", "Supportive care"]
+    },
+    "Tapeworm Infection": {
+        "description": "An intestinal infection caused by tapeworm parasites.",
+        "symptoms": ["abdominal pain", "nausea", "diarrhea", "weight loss", "weakness", "segments in stool"],
+        "precautions": ["Cook meat thoroughly", "Maintain hygiene", "Wash hands frequently", "Use sanitary toilets"],
+        "medications": ["Praziquantel", "Albendazole", "Niclosamide", "Supportive care"]
+    },
+    "Schistosomiasis": {
+        "description": "A parasitic disease caused by blood flukes, also known as bilharzia.",
+        "symptoms": ["fever", "abdominal pain", "blood in urine", "diarrhea", "cough", "rash"],
+        "precautions": ["Avoid contact with contaminated water", "Wear protective clothing", "Use sanitary toilets", "Control snails"],
+        "medications": ["Praziquantel", "Supportive care", "Iron supplements", "Antibiotics for secondary infections"]
+    },
+    "Cysticercosis": {
+        "description": "A parasitic tissue infection caused by the larval stage of the pork tapeworm.",
+        "symptoms": ["seizures", "headaches", "vision problems", "muscle pain", "confusion", "balance problems"],
+        "precautions": ["Cook pork thoroughly", "Maintain hygiene", "Wash hands frequently", "Use sanitary toilets"],
+        "medications": ["Albendazole", "Praziquantel", "Corticosteroids", "Antiepileptic drugs"]
+    },
+    "Echinococcosis": {
+        "description": "A parasitic disease caused by tapeworms of the genus Echinococcus.",
+        "symptoms": ["abdominal pain", "nausea", "vomiting", "cough", "chest pain", "jaundice"],
+        "precautions": ["Wash hands after handling dogs", "Cook meat thoroughly", "Maintain hygiene", "Control stray dogs"],
+        "medications": ["Albendazole", "Surgery", "Supportive care"]
+    },
+    "Toxoplasmosis": {
+        "description": "A parasitic disease caused by Toxoplasma gondii.",
+        "symptoms": ["fever", "headache", "muscle pain", "swollen lymph nodes", "fatigue", "sore throat"],
+        "precautions": ["Cook meat thoroughly", "Wash hands after handling cats", "Clean cat litter boxes", "Wash fruits and vegetables"],
+        "medications": ["Pyrimethamine", "Sulfadiazine", "Folinic acid", "Supportive care"]
+    }
+} 

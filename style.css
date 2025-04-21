@@ -1,0 +1,305 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 0;
+    opacity: 0.9;
+}
+
+/* Form Styles */
+.prediction-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Checkbox Styles */
+.symptoms-checkbox-group {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.form-check {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+}
+
+.form-check:hover {
+    background-color: #e9ecef;
+}
+
+.form-check:last-child {
+    border-bottom: none;
+}
+
+.form-check-input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-check-label {
+    cursor: pointer;
+    user-select: none;
+    width: 100%;
+    padding: 4px 0;
+}
+
+/* Selected Symptoms Styles */
+.selected-symptoms {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    min-height: 50px;
+}
+
+.selected-symptoms-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.selected-symptom {
+    display: inline-flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    margin: 0.25rem;
+}
+
+.selected-symptom .remove-symptom {
+    margin-left: 0.5rem;
+    padding: 0 0.25rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.selected-symptom .remove-symptom:hover {
+    color: #ff6b6b;
+}
+
+/* Results Styles */
+.results {
+    margin-top: 30px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card h5 {
+    margin-bottom: 5px;
+}
+
+.card h6 {
+    margin-top: 15px;
+    color: #007bff;
+}
+
+.card ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.card li {
+    margin-bottom: 5px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    header {
+        padding: 15px 0;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .prediction-form {
+        padding: 20px;
+    }
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.disease-results {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.disease-card {
+    margin-bottom: 1rem;
+    border-left: 4px solid #007bff;
+}
+
+.disease-card .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.similarity-badge {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.symptoms-list-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.symptoms-list-container .list-group-item {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.symptoms-list-container .list-group-item:last-child {
+    border-bottom: none;
+}
+
+.symptoms-list-container .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.symptoms-list-container .form-check {
+    margin: 0;
+    width: 100%;
+}
+
+.symptoms-list-container .form-check-input {
+    margin-right: 0.5rem;
+}
+
+.symptoms-list, .precautions-list, .medications-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.symptoms-list li, .precautions-list li, .medications-list li {
+    padding: 0.25rem 0;
+}
+
+.symptoms-list li::before {
+    content: "•";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} 
