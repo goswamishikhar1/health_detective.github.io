@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Connection Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .error {
+            color: red;
+        }
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Backend Connection Test</h1>
+    <p>This page will help diagnose connection issues with the backend server.</p>
+    
+    <button id="testRoot">Test Root Endpoint</button>
+    <button id="testDiseases">Test Diseases Endpoint</button>
+    <button id="testPredict">Test Predict Endpoint</button>
+    
+    <div id="result">Results will appear here...</div>
+    
+    <script>
+        const resultDiv = document.getElementById('result');
+        
+        function displayResult(data, isError = false) {
+            resultDiv.innerHTML = `<pre class="${isError ? 'error' : 'success'}">${JSON.stringify(data, null, 2)}</pre>`;
+        }
+        
+        function displayError(error) {
+            resultDiv.innerHTML = `<pre class="error">Error: ${error.message}</pre>`;
+            console.error('Error:', error);
+        }
+        
+        document.getElementById('testRoot').addEventListener('click', async () => {
+            try {
+                const response = await fetch('http://127.0.0.1:8080/');
+                const data = await response.json();
+                displayResult(data);
+            } catch (error) {
+                displayError(error);
+            }
+        });
+        
+        document.getElementById('testDiseases').addEventListener('click', async () => {
+            try {
+                const response = await fetch('http://127.0.0.1:8080/diseases');
+                const data = await response.json();
+                displayResult(data);
+            } catch (error) {
+                displayError(error);
+            }
+        });
+        
+        document.getElementById('testPredict').addEventListener('click', async () => {
+            try {
+                const formData = new FormData();
+                formData.append('symptoms', 'fever');
+                formData.append('symptoms', 'cough');
+                
+                const response = await fetch('http://127.0.0.1:8080/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`Server responded with status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                displayResult(data);
+            } catch (error) {
+                displayError(error);
+            }
+        });
+    </script>
+</body>
+</html> 
