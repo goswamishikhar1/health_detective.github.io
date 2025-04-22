@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load all unique symptoms from the backend
     async function loadSymptoms() {
         try {
+            console.log('Fetching symptoms from:', `${API_URL}/diseases`);
             const response = await fetch(`${API_URL}/diseases`, {
                 method: 'GET',
                 headers: {
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             const data = await response.json();
+            console.log('Received data:', data);
             allSymptoms = [...new Set(data.diseases.flatMap(disease => disease.symptoms))].sort();
             updateSymptomsDropdown();
         } catch (error) {
@@ -130,6 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         try {
+            console.log('Sending symptoms:', Array.from(selectedSymptoms));
             const response = await fetch(`${API_URL}/predict`, {
                 method: 'POST',
                 headers: {
@@ -146,6 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             const data = await response.json();
+            console.log('Received prediction:', data);
             displayResults(data.predictions);
         } catch (error) {
             console.error('Error:', error);
